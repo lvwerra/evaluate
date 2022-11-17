@@ -33,6 +33,9 @@ from datasets.packaged_modules import _EXTENSION_TO_MODULE, _hash_python_lines
 from datasets.utils.filelock import FileLock
 from datasets.utils.version import Version
 
+
+import numpy as np
+
 from . import SCRIPTS_VERSION, config
 from .module import EvaluationModule
 from .utils.file_utils import (
